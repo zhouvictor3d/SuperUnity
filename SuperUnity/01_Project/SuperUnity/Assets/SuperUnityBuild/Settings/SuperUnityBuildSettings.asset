@@ -91,11 +91,12 @@ MonoBehaviour:
     showViewOptions: 0
     showConfigs: 0
     showBuildInfo: 0
-    hideDisabled: 1
+    hideDisabled: 0
     treeView: 0
     selectedKeyChain: NewReleaseType/iOS/iOS (iPhoneOnly,Device SDK,Debug)
   _preBuildActions:
-    buildActions: []
+    buildActions:
+    - {fileID: 0}
   _postBuildActions:
     buildActions: []
 --- !u!114 &4413171974706157921
