@@ -1,105 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d5886119a5c7b34d8872ab527ca3e1b, type: 3}
-  m_Name: SuperUnityBuildSettings
-  m_EditorClassIdentifier: 
-  _basicSettings:
-    baseBuildFolder: Builds
-    buildPath: $VERSION.$BUILD/$RELEASE_TYPE/$PLATFORM/$ARCHITECTURE/$DISTRIBUTION
-    openFolderPostBuild: 1
-  _productParameters:
-    buildCounter: 1
-    buildVersion: 0.1
-    versionTemplate: 0.1
-    autoGenerate: 1
-    syncWithPlayerSettings: 0
-  _releaseTypeList:
-    releaseTypes:
-    - typeName: NewReleaseType
-      bundleIdentifier: com.DefaultCompany.SuperUnity
-      companyName: DefaultCompany
-      productName: SuperUnity
-      buildOptions: 0
-      customDefines: 
-      sceneList:
-        enabledScenes: []
-    - typeName: NewReleaseType
-      bundleIdentifier: com.DefaultCompany.SuperUnity
-      companyName: DefaultCompany
-      productName: SuperUnity
-      buildOptions: 0
-      customDefines: 
-      sceneList:
-        enabledScenes: []
-    - typeName: NewReleaseType
-      bundleIdentifier: com.DefaultCompany.SuperUnity
-      companyName: DefaultCompany
-      productName: SuperUnity
-      buildOptions: 0
-      customDefines: 
-      sceneList:
-        enabledScenes: []
-  _platformList:
-    platforms:
-    - {fileID: 5513624171930798048}
-    - {fileID: 4413171974706157921}
-  _projectConfigurations:
-    configSet:
-      _Buckets: ffffffff0400000003000000ffffffffffffffff0100000002000000
-      _HashCodes: 4ae53b3077a5c24da061c42e191d0e39494e1b2d0000000000000000
-      _Next: ffffffffffffffffffffffffffffffff000000000000000000000000
-      _Count: 5
-      _Version: 5
-      _FreeList: -1
-      _FreeCount: 0
-      _Keys:
-      - NewReleaseType/iOS/iOS (iPhoneOnly,Device SDK,Debug)
-      - NewReleaseType/iOS
-      - NewReleaseType/Android/Android (ARMv7,Generic,Gradle,Disabled,Auto)
-      - NewReleaseType/Android
-      - NewReleaseType
-      - 
-      - 
-      _Values:
-      - enabled: 1
-        childKeys: []
-      - enabled: 1
-        childKeys:
-        - NewReleaseType/iOS/iOS (iPhoneOnly,Device SDK,Debug)
-      - enabled: 1
-        childKeys: []
-      - enabled: 1
-        childKeys:
-        - NewReleaseType/Android/Android (ARMv7,Generic,Gradle,Disabled,Auto)
-      - enabled: 1
-        childKeys:
-        - NewReleaseType/iOS
-        - NewReleaseType/Android
-      - enabled: 1
-        childKeys: []
-      - enabled: 1
-        childKeys: []
-    showViewOptions: 0
-    showConfigs: 0
-    showBuildInfo: 0
-    hideDisabled: 0
-    treeView: 0
-    selectedKeyChain: NewReleaseType/iOS/iOS (iPhoneOnly,Device SDK,Debug)
-  _preBuildActions:
-    buildActions:
-    - {fileID: 0}
-  _postBuildActions:
-    buildActions: []
---- !u!114 &4413171974706157921
+--- !u!114 &-8808695185281291500
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89df54eebccd0704dbbe96915fbb9a6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enabled: 1
+  enabled: 0
   distributionList:
     distributions: []
   architectures:
@@ -166,7 +67,7 @@ MonoBehaviour:
   platformName: Android
   dataDirNameFormat: '{0}_Data'
   targetGroup: 7
---- !u!114 &5513624171930798048
+--- !u!114 &-2777643524431589271
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -206,3 +107,87 @@ MonoBehaviour:
   platformName: iOS
   dataDirNameFormat: '{0}_Data'
   targetGroup: 4
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d5886119a5c7b34d8872ab527ca3e1b, type: 3}
+  m_Name: SuperUnityBuildSettings
+  m_EditorClassIdentifier: 
+  _basicSettings:
+    baseBuildFolder: Builds
+    buildPath: $VERSION.$BUILD/$RELEASE_TYPE/$PLATFORM/$ARCHITECTURE/$DISTRIBUTION
+    openFolderPostBuild: 1
+  _productParameters:
+    buildCounter: 1
+    buildVersion: 0.1
+    versionTemplate: 0.1
+    autoGenerate: 1
+    syncWithPlayerSettings: 0
+  _releaseTypeList:
+    releaseTypes:
+    - typeName: NewReleaseType
+      bundleIdentifier: com.DefaultCompany.SuperUnity
+      companyName: DefaultCompany
+      productName: SuperUnity
+      buildOptions: 0
+      customDefines: 
+      sceneList:
+        enabledScenes: []
+    - typeName: NewReleaseType
+      bundleIdentifier: com.DefaultCompany.SuperUnity
+      companyName: DefaultCompany
+      productName: SuperUnity
+      buildOptions: 0
+      customDefines: 
+      sceneList:
+        enabledScenes: []
+    - typeName: NewReleaseType
+      bundleIdentifier: com.DefaultCompany.SuperUnity
+      companyName: DefaultCompany
+      productName: SuperUnity
+      buildOptions: 0
+      customDefines: 
+      sceneList:
+        enabledScenes: []
+  _platformList:
+    platforms:
+    - {fileID: -2777643524431589271}
+    - {fileID: -8808695185281291500}
+  _projectConfigurations:
+    configSet:
+      _Buckets: 010000000200000000000000
+      _HashCodes: 4ae53b3077a5c24d494e1b2d
+      _Next: ffffffffffffffffffffffff
+      _Count: 3
+      _Version: 3
+      _FreeList: -1
+      _FreeCount: 0
+      _Keys:
+      - NewReleaseType/iOS/iOS (iPhoneOnly,Device SDK,Debug)
+      - NewReleaseType/iOS
+      - NewReleaseType
+      _Values:
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys:
+        - NewReleaseType/iOS/iOS (iPhoneOnly,Device SDK,Debug)
+      - enabled: 1
+        childKeys:
+        - NewReleaseType/iOS
+    showViewOptions: 0
+    showConfigs: 0
+    showBuildInfo: 0
+    hideDisabled: 0
+    treeView: 0
+    selectedKeyChain: NewReleaseType/iOS/iOS (iPhoneOnly,Device SDK,Debug)
+  _preBuildActions:
+    buildActions: []
+  _postBuildActions:
+    buildActions: []
