@@ -39,9 +39,11 @@
 
 //        private const string LOG_TAG = "ExcelToJson";
 
-//        private const string OutPutConfigErrorInfoPath = "../../Config/";
-//        private const string OutPutClassPath = "Configs/ConfigClass";
-//        private const string ExcelConfigFilePath = "../../Config/config.xlsx";
+//        private const string ExcelConfigFilePath = "../../Config/config.xlsx"; //Excel 位置
+
+//        private const string OutPutConfigErrorInfoPath = "../../Config/";  //Config 文件位置
+//        private const string OutPutClassPath = "Configs/ConfigClass";      //自动生成类位置 
+
 //        private const string FormatedConfigFilePath = "../../Config/FormatedConfigs/";
 //        private const string ExportJsonConfigPath = "Configs/Resources/Configs/";
 //        private const string BatchPath = "../../Config/MoveConfigFromDownloadToProject.bat";
@@ -137,7 +139,6 @@
 //            HiFileUtils.DeleteAllFile(HiFileUtils.FileLocation.Editor, FormatedConfigFilePath);
 //            ExcelConfigToJson();
 //        }
-
 
 //        [MenuItem("Phoenix/ExcelConfigToJson(Copy)", false, 10)]
 //        public static void ExcelConfigCopyFromDownloads()
@@ -517,7 +518,7 @@
 
 //                case "int":
 //                    {
-//                        int newValue = HiTypeUtils.SafeIntParse(strValue);
+//                        int newValue = TypeParseUtils.SafeIntParse(strValue);
 //                        if (newValue == 0 && defaultValueReturnNull)
 //                        {
 //                            return null;
@@ -526,7 +527,7 @@
 //                    }
 //                case "long":
 //                    {
-//                        long newValue = HiTypeUtils.SafeLongParse(strValue);
+//                        long newValue = TypeParseUtils.SafeLongParse(strValue);
 //                        if (newValue == 0 && defaultValueReturnNull)
 //                        {
 //                            return null;
@@ -535,7 +536,7 @@
 //                    }
 //                case "bool":
 //                    {
-//                        bool newValue = HiTypeUtils.SafeBoolParse(strValue);
+//                        bool newValue = TypeParseUtils.SafeBoolParse(strValue);
 //                        if (newValue == false && defaultValueReturnNull)
 //                        {
 //                            return null;
@@ -544,7 +545,7 @@
 //                    }
 //                case "float":
 //                    {
-//                        float newValue = HiTypeUtils.SafeFloatParse(strValue);
+//                        float newValue = TypeParseUtils.SafeFloatParse(strValue);
 //                        if (newValue == 0.0f && defaultValueReturnNull)
 //                        {
 //                            return null;
@@ -553,7 +554,7 @@
 //                    }
 //                case "Vector2":
 //                    {
-//                        Vector2 newValue = HiTypeUtils.SafeVectorParse(strValue);
+//                        Vector2 newValue = TypeParseUtils.SafeVectorParse(strValue);
 //                        if (newValue == Vector2.zero && defaultValueReturnNull)
 //                        {
 //                            return null;
@@ -562,7 +563,7 @@
 //                    }
 //                case "Vector2Int":
 //                    {
-//                        Vector2Int newValue = (Vector2Int)HiTypeUtils.SafeVectorIntParse(strValue);
+//                        Vector2Int newValue = (Vector2Int)TypeParseUtils.SafeVectorIntParse(strValue);
 //                        if (newValue == Vector2Int.zero && defaultValueReturnNull)
 //                        {
 //                            return null;
@@ -571,7 +572,7 @@
 //                    }
 //                case "Vector3":
 //                    {
-//                        Vector3 newValue = HiTypeUtils.SafeVectorParse(strValue);
+//                        Vector3 newValue = TypeParseUtils.SafeVectorParse(strValue);
 //                        if (newValue == Vector3.zero && defaultValueReturnNull)
 //                        {
 //                            return null;
@@ -580,7 +581,7 @@
 //                    }
 //                case "Vector3Int":
 //                    {
-//                        Vector3Int newValue = HiTypeUtils.SafeVectorIntParse(strValue);
+//                        Vector3Int newValue = TypeParseUtils.SafeVectorIntParse(strValue);
 //                        if (newValue == Vector3Int.zero && defaultValueReturnNull)
 //                        {
 //                            return null;
@@ -590,7 +591,7 @@
 //                //对于扩展类型，不会节约默认值
 //                case "Color":
 //                    {
-//                        UnityEngine.Color color = HiTypeUtils.SafeColorParse(strValue);
+//                        UnityEngine.Color color = TypeParseUtils.SafeColorParse(strValue);
 //                        return new Dictionary<string, float> { { "r", color.r }, { "g", color.g }, { "b", color.b }, { "a", color.a }, };
 //                    }
 //                default:
@@ -772,7 +773,7 @@
 
 //        private static object ConvertStringtoEnum<TEnum>(string value, TEnum defaultValue) where TEnum : struct
 //        {
-//            return HiTypeUtils.SafeEnumParse<TEnum>(value, defaultValue);
+//            return TypeParseUtils.SafeEnumParse<TEnum>(value, defaultValue);
 //        }
 
 //        static StringBuilder errorStringBuilder;

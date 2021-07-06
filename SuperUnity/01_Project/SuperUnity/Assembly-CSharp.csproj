@@ -56,13 +56,29 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\UniHub\SuperUtils\Utils\FileUtils.cs" />
-    <Compile Include="Assets\UniHub\NewBehaviourScript.cs" />
     <Compile Include="Assets\SuperUnityBuild\BuildConstants.cs" />
+    <Compile Include="Assets\Configs\StableEnum\BaseStableEnum.cs" />
+    <Compile Include="Assets\Configs\ConfigClass\AppConfig.cs" />
+    <Compile Include="Assets\Configs\StableEnum\StableEnum.cs" />
+    <Compile Include="Assets\AppHub\UtilsHub\Utils\MonoSingleton.cs" />
+    <Compile Include="Assets\Configs\ConfigBase.cs" />
+    <Compile Include="Assets\AppHub\AppInfo.cs" />
+    <Compile Include="Assets\AppHub\UtilsHub\Utils\TypeParseUtils.cs" />
+    <Compile Include="Assets\AppHub\UtilsHub\Utils\Singleton.cs" />
+    <Compile Include="Assets\Configs\ConcreteStableEnums.cs" />
+    <Compile Include="Assets\AppHub\UtilsHub\Utils\HiFileUtils.cs" />
+    <Compile Include="Assets\Configs\StableEnum\StableEnumHelper.cs" />
+    <Compile Include="Assets\Jjjd.cs" />
   </ItemGroup>
   <ItemGroup>
-     <None Include="Assets\UniHub\SuperUtils\Plugins\ExcelDataReader.dll" />
-     <None Include="Assets\UniHub\SuperUtils\Plugins\ExcelDataReader.DataSet.dll" />
+     <None Include="Assets\Configs\StableEnum\Readme.txt" />
+     <None Include="Assets\JsonDotNet\link.xml" />
+     <None Include="Assets\JsonDotNet\Assemblies\Windows\Newtonsoft.Json.XML" />
+     <None Include="Assets\JsonDotNet\Assemblies\Standalone\Newtonsoft.Json.XML" />
+     <None Include="Assets\JsonDotNet\Assemblies\Standalone\Newtonsoft.Json.dll" />
+     <None Include="Assets\JsonDotNet\Assemblies\AOT\Newtonsoft.Json.dll" />
+     <None Include="Assets\JsonDotNet\Assemblies\AOT\Newtonsoft.Json.XML" />
+     <None Include="Assets\JsonDotNet\Assemblies\Windows\Newtonsoft.Json.dll" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.1f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -277,10 +293,13 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.1f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="ExcelDataReader.DataSet">
-      <HintPath>Assets\UniHub\SuperUtils\Plugins\ExcelDataReader.DataSet.dll</HintPath>
+      <HintPath>Assets\Plugins\ExcelDataReader.DataSet.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets\JsonDotNet\Assemblies\Standalone\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="ExcelDataReader">
-      <HintPath>Assets\UniHub\SuperUtils\Plugins\ExcelDataReader.dll</HintPath>
+      <HintPath>Assets\Plugins\ExcelDataReader.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.1f1c1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

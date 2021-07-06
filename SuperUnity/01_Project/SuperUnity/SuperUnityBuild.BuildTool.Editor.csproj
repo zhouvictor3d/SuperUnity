@@ -56,59 +56,59 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Packages\buildtool-master\Editor\Build\Action\Interfaces\IPreBuildAction.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Settings\BaseSettings.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Generic\FilePathDrawer.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Action\Interfaces\IPreBuildPerPlatformAction.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Settings\UI\BasicSettingsDrawer.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Settings\UI\BuildSettingsEditor.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Settings\BuildDistribution.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Action\BuildActionList.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\BuildCLI.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\UI\UnityBuildWindow.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Settings\BasicSettings.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Action\UI\BuildFilterDrawer.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Platform\BuildLinux.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Platform\BuildOSX.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Settings\UI\BuildReleaseTypeListDrawer.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Platform\BuildPC.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Action\Interfaces\IPostBuildPerPlatformAction.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Settings\BuildSettings.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Settings\SceneList.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Platform\BuildPlatform.cs" />
     <Compile Include="Packages\buildtool-master\Editor\Build\Platform\UI\BuildPlatformListDrawer.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\BuildProject.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Action\Interfaces\IPostBuildPerPlatformAction.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Settings\BuildReleaseTypeList.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\UI\UnityBuildGUIUtility.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Generic\FilePathDrawer.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Notifications\BuildNotificationList.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Settings\UI\ProductParametersDrawer.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Action\Interfaces\IPreBuildAction.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Generic\FilePathAttribute.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Settings\ProjectConfigurations.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Settings\UI\BuildSettingsEditor.cs" />
     <Compile Include="Packages\buildtool-master\Editor\Build\Settings\ProductParameters.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Platform\BuildArchitecture.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Settings\BuildDistributionList.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Action\BuildFilter.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Platform\BuildPlatformList.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Settings\BuildReleaseType.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Action\UI\BuildActionListDrawer.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Action\Interfaces\IPostBuildAction.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Action\BuildActionListUtility.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Platform\BuildWebGL.cs" />
     <Compile Include="Packages\buildtool-master\Editor\Notifications\UI\BuildNotificationListDrawer.cs" />
     <Compile Include="Packages\buildtool-master\Editor\Notifications\BuildNotification.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Settings\UI\BuildReleaseTypeDrawer.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Settings\Configuration.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Generic\AssetDatabaseUtility.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Platform\BuildVariant.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Notifications\BuildNotificationList.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Settings\BuildReleaseTypeList.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Generic\FilePathAttribute.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Platform\BuildIOS.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Platform\BuildAndroid.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Action\UI\BuildFilterDrawer.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Settings\UI\BuildReleaseTypeListDrawer.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Action\Interfaces\IPostBuildAction.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\BuildConstantsGenerator.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Settings\BaseSettings.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Action\BuildFilter.cs" />
     <Compile Include="Packages\buildtool-master\Editor\Build\Action\BuildAction.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\UI\UnityBuildGUIUtility.cs" />
     <Compile Include="Packages\buildtool-master\Editor\Generic\SerializableDictionary.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\BuildProject.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Settings\BuildDistributionList.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Generic\AssetDatabaseUtility.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\UI\UnityBuildWindow.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Platform\BuildPlatform.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Settings\UI\BasicSettingsDrawer.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Settings\BasicSettings.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Platform\BuildOSX.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Platform\BuildPC.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Platform\BuildWebGL.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Settings\Configuration.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Platform\UI\BuildPlatformDrawer.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Platform\BuildLinux.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Platform\BuildArchitecture.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Settings\BuildReleaseType.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Platform\BuildIOS.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\BuildCLI.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Settings\SceneList.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Action\UI\BuildActionListDrawer.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Platform\BuildVariant.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Action\BuildActionList.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Settings\BuildSettings.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Platform\BuildPlatformList.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Action\BuildActionListUtility.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Action\Interfaces\IPreBuildPerPlatformAction.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Settings\BuildDistribution.cs" />
+    <Compile Include="Packages\buildtool-master\Editor\Build\Settings\UI\BuildReleaseTypeDrawer.cs" />
     <Compile Include="Packages\buildtool-master\Editor\Build\Settings\UI\ProjectConfigurationsDrawer.cs" />
     <Compile Include="Packages\buildtool-master\Editor\Constants.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Settings\ProjectConfigurations.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Platform\BuildAndroid.cs" />
     <Compile Include="Packages\buildtool-master\Editor\Build\Settings\UI\SceneListDrawer.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Settings\UI\ProductParametersDrawer.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\Build\Platform\UI\BuildPlatformDrawer.cs" />
-    <Compile Include="Packages\buildtool-master\Editor\BuildConstantsGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Packages\buildtool-master\Editor\adjectives.txt" />
@@ -351,14 +351,17 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="ExcelDataReader.DataSet">
-      <HintPath>Assets\UniHub\SuperUtils\Plugins\ExcelDataReader.DataSet.dll</HintPath>
-    </Reference>
-    <Reference Include="ExcelDataReader">
-      <HintPath>Assets\UniHub\SuperUtils\Plugins\ExcelDataReader.dll</HintPath>
-    </Reference>
     <Reference Include="Ionic.Zip">
       <HintPath>Assets\SuperUnityBuild\BuildActions\Editor\ZipFile\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader.DataSet">
+      <HintPath>Assets\Plugins\ExcelDataReader.DataSet.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets\JsonDotNet\Assemblies\Standalone\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader">
+      <HintPath>Assets\Plugins\ExcelDataReader.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>

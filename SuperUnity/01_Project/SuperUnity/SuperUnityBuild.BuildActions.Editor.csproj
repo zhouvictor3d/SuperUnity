@@ -56,19 +56,19 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\SuperUnityBuild\BuildActions\Editor\ZipFile\ZipFileOperation.cs" />
-    <Compile Include="Assets\SuperUnityBuild\BuildActions\Editor\ScriptRunner\ScriptRunner.cs" />
-    <Compile Include="Assets\SuperUnityBuild\BuildActions\Editor\PerBuildAudioSettings\PerBuildAudioSettings.cs" />
-    <Compile Include="Assets\SuperUnityBuild\BuildActions\Editor\FileUtility\FileUtility.cs" />
-    <Compile Include="Assets\SuperUnityBuild\BuildActions\Editor\ItchUploader\UploadItch.cs" />
-    <Compile Include="Assets\SuperUnityBuild\BuildActions\Editor\AssetBundle\BuildAssetBundles.cs" />
     <Compile Include="Assets\SuperUnityBuild\BuildActions\Editor\FileUtility\FileOperation.cs" />
-    <Compile Include="Assets\SuperUnityBuild\BuildActions\Editor\PackageManagement\PackageManagement.cs" />
-    <Compile Include="Assets\SuperUnityBuild\BuildActions\Editor\XRPluginManagement\XRPluginManagement.cs" />
-    <Compile Include="Assets\SuperUnityBuild\BuildActions\Editor\FileUtility\FolderOperation.cs" />
-    <Compile Include="Assets\SuperUnityBuild\BuildActions\Editor\OverrideDefines\OverrideDefines.cs" />
-    <Compile Include="Assets\SuperUnityBuild\BuildActions\Editor\PerBuildPlayerSettings\PerBuildPlayerSettings.cs" />
     <Compile Include="Assets\SuperUnityBuild\BuildActions\Editor\XRSettings\XRSettings.cs" />
+    <Compile Include="Assets\SuperUnityBuild\BuildActions\Editor\XRPluginManagement\XRPluginManagement.cs" />
+    <Compile Include="Assets\SuperUnityBuild\BuildActions\Editor\ItchUploader\UploadItch.cs" />
+    <Compile Include="Assets\SuperUnityBuild\BuildActions\Editor\PerBuildAudioSettings\PerBuildAudioSettings.cs" />
+    <Compile Include="Assets\SuperUnityBuild\BuildActions\Editor\PackageManagement\PackageManagement.cs" />
+    <Compile Include="Assets\SuperUnityBuild\BuildActions\Editor\FileUtility\FolderOperation.cs" />
+    <Compile Include="Assets\SuperUnityBuild\BuildActions\Editor\ZipFile\ZipFileOperation.cs" />
+    <Compile Include="Assets\SuperUnityBuild\BuildActions\Editor\FileUtility\FileUtility.cs" />
+    <Compile Include="Assets\SuperUnityBuild\BuildActions\Editor\PerBuildPlayerSettings\PerBuildPlayerSettings.cs" />
+    <Compile Include="Assets\SuperUnityBuild\BuildActions\Editor\AssetBundle\BuildAssetBundles.cs" />
+    <Compile Include="Assets\SuperUnityBuild\BuildActions\Editor\ScriptRunner\ScriptRunner.cs" />
+    <Compile Include="Assets\SuperUnityBuild\BuildActions\Editor\OverrideDefines\OverrideDefines.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\SuperUnityBuild\BuildActions\Editor\SuperUnityBuild.BuildActions.Editor.asmdef" />
@@ -311,14 +311,17 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="ExcelDataReader.DataSet">
-      <HintPath>Assets\UniHub\SuperUtils\Plugins\ExcelDataReader.DataSet.dll</HintPath>
-    </Reference>
-    <Reference Include="ExcelDataReader">
-      <HintPath>Assets\UniHub\SuperUtils\Plugins\ExcelDataReader.dll</HintPath>
-    </Reference>
     <Reference Include="Ionic.Zip">
       <HintPath>Assets\SuperUnityBuild\BuildActions\Editor\ZipFile\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader.DataSet">
+      <HintPath>Assets\Plugins\ExcelDataReader.DataSet.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets\JsonDotNet\Assemblies\Standalone\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader">
+      <HintPath>Assets\Plugins\ExcelDataReader.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
